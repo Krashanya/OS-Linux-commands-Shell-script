@@ -102,6 +102,7 @@ cut -d "|" -f 1 file22
 cut -d "|" -f 2 file22
 ## OUTPUT
 
+<img width="702" height="129" alt="image" src="https://github.com/user-attachments/assets/3619f71c-c813-484d-8fc7-35f8d9c8c088" />
 
 cat < newfile 
 ```
@@ -116,21 +117,25 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+<img width="662" height="108" alt="image" src="https://github.com/user-attachments/assets/d5cbcdf8-4c57-400f-bf15-f771b74abd83" />
 
 
 grep hello newfile 
 ## OUTPUT
 
+<img width="653" height="80" alt="image" src="https://github.com/user-attachments/assets/c17a3959-93f4-4930-84cf-8ca67395ac6f" />
 
 
 
 grep -v hello newfile 
 ## OUTPUT
 
+<img width="718" height="76" alt="image" src="https://github.com/user-attachments/assets/fa527a72-590a-4afa-82d5-7c177359c6ed" />
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+<img width="597" height="107" alt="image" src="https://github.com/user-attachments/assets/28a6950d-c2a7-4b06-940a-303c850cc19e" />
 
 
 
@@ -138,16 +143,18 @@ cat newfile | grep -i "hello"
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
-
+<img width="658" height="82" alt="image" src="https://github.com/user-attachments/assets/d1c99ec6-7500-482c-842f-29836ad1a2d5" />
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+<img width="1138" height="512" alt="image" src="https://github.com/user-attachments/assets/3ffabf2d-2fcc-44eb-9db1-a6f7521a1735" />
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
+<img width="678" height="102" alt="image" src="https://github.com/user-attachments/assets/57c1a328-0c08-4e95-bbb8-dd06906a0d7d" />
 
 
 cat < newfile 
@@ -159,6 +166,7 @@ Unix is predecessor
 Linux is best in this World
 ^d
 ```
+<img width="629" height="179" alt="image" src="https://github.com/user-attachments/assets/d3a67c1b-0e98-4dce-8a2a-59274cbec527" />
 
 cat > newfile
 ```
@@ -171,6 +179,7 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+<img width="645" height="105" alt="image" src="https://github.com/user-attachments/assets/0b2d0e12-dd00-4259-90fd-07e9eb2e2861" />
 
 
 
@@ -179,8 +188,10 @@ egrep -w '(H|h)ello' newfile
 
 
 
+
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
+<img width="592" height="103" alt="image" src="https://github.com/user-attachments/assets/47d5259c-cc27-4540-bfe2-cb01cd162ef5" />
 
 
 
