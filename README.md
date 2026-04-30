@@ -43,22 +43,26 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
+<img width="575" height="228" alt="image" src="https://github.com/user-attachments/assets/86d998d8-6a75-4f1c-b51a-6fd312b89e02" />
 
 
 cat < file2
 ## OUTPUT
 
+<img width="569" height="203" alt="image" src="https://github.com/user-attachments/assets/fb242971-0458-4291-a822-ff65dd1f57d8" />
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ <img width="627" height="138" alt="image" src="https://github.com/user-attachments/assets/349372b3-3673-417f-94b2-15e5fc2631f6" />
+
 comm file1 file2
  ## OUTPUT
+<img width="793" height="208" alt="image" src="https://github.com/user-attachments/assets/f2cae303-e755-485c-912b-bc498cb0b518" />
 
- 
 diff file1 file2
 ## OUTPUT
+<img width="795" height="367" alt="image" src="https://github.com/user-attachments/assets/03e3c061-71b0-4f6b-bd15-dfc590e2c958" />
 
 
 #Filters
@@ -71,6 +75,8 @@ Hello world
 This is my world
 ^d
 ```
+<img width="747" height="106" alt="image" src="https://github.com/user-attachments/assets/6b6f81ef-cdd6-455a-b9e6-17e5679acfd9" />
+
 cat > file22
 ```
 1001 | Ram | 10000 | HR
@@ -78,10 +84,11 @@ cat > file22
 1003 | Joe |  7000 | Developer
 ^d
 ```
-
+<img width="714" height="125" alt="image" src="https://github.com/user-attachments/assets/5aa6eb33-8218-421b-b168-4c94aefb1a52" />
 
 cut -c1-3 file11
 ## OUTPUT
+<img width="739" height="104" alt="image" src="https://github.com/user-attachments/assets/82d2f1a3-e7af-4f80-9485-23b5f5550cc9" />
 
 
 
@@ -89,6 +96,7 @@ cut -c1-3 file11
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+<img width="721" height="126" alt="image" src="https://github.com/user-attachments/assets/41b83c69-4b0a-4454-814e-13bd0b79516e" />
 
 
 cut -d "|" -f 2 file22
