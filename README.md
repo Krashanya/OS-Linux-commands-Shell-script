@@ -30,6 +30,7 @@ s.n. dasgupta
 sumit chakrobarty
 ^d
 ```
+
 cat > file2
 ```
 anil aggarwal
@@ -39,27 +40,34 @@ lalit chowdury
 s.n. dasgupta
 ^d
 ```
+
+
 ### Display the content of the files
 cat < file1
 ## OUTPUT
 
+<img width="575" height="228" alt="image" src="https://github.com/user-attachments/assets/05e494a9-65da-4131-a05f-590f344eeac0" />
 
 
 cat < file2
 ## OUTPUT
 
+<img width="569" height="203" alt="image" src="https://github.com/user-attachments/assets/b85e30c5-385a-4479-beee-12fb656c8c06" />
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ <img width="627" height="138" alt="image" src="https://github.com/user-attachments/assets/97b66d16-e50c-40ad-8ae4-5767cb60bd56" />
+
 comm file1 file2
  ## OUTPUT
+<img width="793" height="208" alt="image" src="https://github.com/user-attachments/assets/354188ec-d3a5-48b3-a4f4-c1487149b73b" />
 
  
 diff file1 file2
 ## OUTPUT
 
+<img width="793" height="208" alt="image" src="https://github.com/user-attachments/assets/4f45be49-c509-4a34-ad50-58a091bf5e9f" />
 
 #Filters
 
@@ -71,6 +79,8 @@ Hello world
 This is my world
 ^d
 ```
+<img width="747" height="106" alt="image" src="https://github.com/user-attachments/assets/11165595-c95c-4879-b89c-535af9ba9e56" />
+
 cat > file22
 ```
 1001 | Ram | 10000 | HR
