@@ -729,11 +729,13 @@ else
 echo "Sorry, you are not allowed here"
 fi
 ```
+<img width="709" height="515" alt="image" src="https://github.com/user-attachments/assets/fe72aea4-f4e1-4e7f-9aec-963063f2e6d3" />
 
 $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+<img width="736" height="152" alt="image" src="https://github.com/user-attachments/assets/78ab75ea-949a-4bab-84ec-de19229d90cd" />
 
 
 # testing compound comparisons
@@ -747,9 +749,12 @@ else
 echo "I cannot write to the file"
 fi
 ```
+<img width="499" height="231" alt="image" src="https://github.com/user-attachments/assets/1d1b255f-67d1-409e-a747-1482e858a33a" />
+
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="644" height="155" alt="image" src="https://github.com/user-attachments/assets/99c626d7-5f23-4d26-956f-44415338b539" />
 
 # using the case command
 cat >casecheck.sh 
@@ -766,10 +771,14 @@ echo "$USER, Do not forget to log off when you're done";;
 echo "Sorry, you are not allowed here";;
 esac
 ```
+<img width="643" height="320" alt="image" src="https://github.com/user-attachments/assets/b2db5123-0100-4a2a-9738-db44a574fca6" />
+
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+OUTPUT:
+<img width="368" height="133" alt="image" src="https://github.com/user-attachments/assets/fd753635-7ed3-4c6c-9f98-5ba1fd3ae0e7" />
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -781,11 +790,15 @@ echo $var1
 var1=$[ $var1 - 1 ]
 done
 ```
+<img width="395" height="232" alt="image" src="https://github.com/user-attachments/assets/e7b008a0-f58e-4041-8359-991109af31bc" />
+
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
- 
+OUTPUT:
+
+ <img width="690" height="426" alt="image" src="https://github.com/user-attachments/assets/300ed66c-a781-4a58-937f-382ecce75860" />
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -795,9 +808,13 @@ do
 echo $var1
 var1=$[ $var1 - 25 ]
 done
-``` 
+```
+<img width="653" height="261" alt="image" src="https://github.com/user-attachments/assets/eb813c96-12b9-4051-b819-bfb7f48b3ee4" />
+
 $ chmod 755 untiltest.sh
- 
+ OUTPUT:
+ <img width="650" height="250" alt="image" src="https://github.com/user-attachments/assets/b911f4d1-703b-4abc-9840-a04b5d4acd81" />
+
  
  
 cat forin1.sh 
@@ -811,56 +828,9 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
- 
-cat forin2.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don't know if this'll work
-do
-echo “word:$test”
-done
- ```
- 
-$ chmod 755 forin2.sh
- 
-cat forin2.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don't know if this'll work
-do
-echo “word:$test”
-done
-```
-$ chmod 755 forin2.sh
- 
-$ ./forin2.sh 
- 
-cat forin3.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don\'t know if "this'll" work
-do
-echo "word:$test"
-done
-```
-$ ./forin3.sh 
- 
-cat forin1.sh 
-```bash
-#!/bin/bash
-# basic for command
-for test in Alabama Alaska Arizona Arkansas California Colorado
-do
-echo The next state is $test
-done
-```
-$ chmod 755 forin1.sh
-
 ## OUTPUT
+<img width="658" height="503" alt="image" src="https://github.com/user-attachments/assets/57e2aa5c-001f-498b-acd7-0a45b0b14886" />
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -872,17 +842,8 @@ echo "Visit beautiful $file“
 done
 ```
 $ chmod 777 forinfile.sh
-$ cat cities
-Hyderabad
-Alampur
-Basara
-Warangal
-Adilabad
-Bhadrachalam
-Khammam
-
 ## OUTPUT
-
+<img width="683" height="381" alt="image" src="https://github.com/user-attachments/assets/1258f33f-a3bb-402a-8398-c150a7021e30" />
 
 cat forctype.sh 
 ```bash
@@ -896,19 +857,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
-
-cat forctype1.sh 
-```bash
-#!/bin/bash
-# multiple variables
-for (( a=1, b=5; a <= 5; a++, b-- ))
-do
-echo "$a - $b"
-done
-```
-$ chmod 755 forctype.sh
-$ ./forctype1.sh 
-## OUTPUT
+<img width="767" height="529" alt="image" src="https://github.com/user-attachments/assets/4f634914-ba4f-4589-973b-9e460bfdd850" />
 
 cat fornested1.sh 
 ```bash
@@ -924,52 +873,10 @@ done
 done
 ```
 $ chmod 755 fornested1.sh
- 
 $ ./fornested1.sh 
  ## OUTPUT
+ <img width="749" height="428" alt="image" src="https://github.com/user-attachments/assets/ca278ca4-b3d5-4ef4-9f8e-f94238dbec53" />
 
- 
-cat forbreak.sh 
-```bash
-#!/bin/bash
-# breaking out of a for loop
-for var1 in 1 2 3 4 5
-do
-if [ $var1 -eq 3 ]
-then
-break
-fi
-echo "Iteration number: $var1"
-done
-echo "The for loop is completed“
-```
-## OUTPUT
-
-$ chmod 755 forbreak.sh
- 
-$ ./forbreak.sh 
- 
-cat forbreak.sh 
-```bash
-#!/bin/bash
-# breaking out of a for loop
-for var1 in 1 2 3 4 5
-do
-if [ $var1 -eq 3 ]
-then
-continue
-fi
-echo "Iteration number: $var1"
-done
-echo "The for loop is completed“
-```
-
- 
-$ chmod 755 forcontinue.sh
- 
-$ ./forcontinue.sh 
-## OUTPUT
- 
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -980,46 +887,9 @@ echo "Hello $name, welcome to my program. "
  ```
  
 $ chmod 755 exread.sh 
- 
 $ ./exread.sh 
 ## OUTPUT
-
-
- cat exread1.sh
-```bash
-#!/bin/bash
-# testing the read command
-read -p "Enter your name: " name
-echo "Hello $name, welcome to my program. “
-``` 
-$ chmod 755 exread1.sh 
-
-## OUTPUT
-
-
-
-$ ./exread1.sh 
- 
-cat funcex.sh
-```bash
-#!/bin/bash
-# trying to access script parameters inside a function
-function func {
-echo $[ $1 * $2 ]
-}
-if [ $# -eq 2 ]
-then
-value=`func $1 $2`
-echo "The result is $value"
-else
-echo "Usage: badtest1 a b"
-fi
-```
-## OUTPUT
- ./funcex.sh 
-
- 
- ./funcex.sh 1 2
+<img width="666" height="351" alt="image" src="https://github.com/user-attachments/assets/53f20fe8-5f5f-4648-a06a-d9df642de663" />
 
  
 cat argshift.sh
@@ -1033,39 +903,8 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
-$ ./argshift.sh 1 2 3
- 
- cat argshift1.sh
-```bash
- #/bin/bash 
- # store arguments in a special array 
-args=("$@") 
-# get number of elements 
-ELEMENTS=${#args[@]} 
- # echo each element in array  
-# for loop 
-for (( i=0;i<$ELEMENTS;i++)); do 
-    echo ${args[${i}]} 
-done
-```
-$ chmod 777 argshift.sh
-## OUTPUT
-$ ./argshift.sh 1 2 3
- 
-cat argshift.sh
-```bash
-#!/bin/bash 
-set -x 
-while (( "$#" )); do 
-  echo $1 
-  shift 
-done
-set +x
-```
-## OUTPUT
- ./argshift.sh 1 2 3
- 
- 
+<img width="628" height="454" alt="image" src="https://github.com/user-attachments/assets/2c1f5589-cf08-47c7-96b0-bb26f05d2922" />
+
 cat > nc.awk
 ```bash
 BEGIN{}
@@ -1080,6 +919,8 @@ print "Number of Lines are",NR
 print "No of Words count:",wordcount
 }
  ```
+<img width="715" height="298" alt="image" src="https://github.com/user-attachments/assets/baed056b-e802-4797-a2b4-d4beb4fda0f8" />
+
 cat>data.dat
 ```bash
 bcdfghj
@@ -1095,7 +936,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+<img width="613" height="350" alt="image" src="https://github.com/user-attachments/assets/f0b5b36b-1602-4cac-a0c0-2e78370b9783" />
+
 cat > palindrome.sh
 ```bash
 #num=545
