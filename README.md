@@ -186,6 +186,7 @@ egrep -w 'Hello|hello' newfile
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
+<img width="603" height="101" alt="image" src="https://github.com/user-attachments/assets/0e81d8c2-94bb-451e-8910-7c314afb0fd3" />
 
 
 
@@ -199,42 +200,39 @@ egrep -w '(H|h)ell[a-z]' newfile
 egrep '(^hello)' newfile 
 ## OUTPUT
 
+<img width="574" height="79" alt="image" src="https://github.com/user-attachments/assets/7969f227-8b07-436f-9262-796e0ac2cd68" />
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-
-
-
-egrep '(World$)' newfile 
-## OUTPUT
-
+<img width="571" height="121" alt="image" src="https://github.com/user-attachments/assets/b8a449db-c81f-4942-9790-241343a1238a" />
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+<img width="783" height="132" alt="image" src="https://github.com/user-attachments/assets/880af5f2-7225-483c-8f5c-0e378a1ecf93" />
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
+<img width="635" height="81" alt="image" src="https://github.com/user-attachments/assets/55819fb8-8c0d-4456-9cae-d8c4935a889a" />
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-
-
-egrep 'Linux.*World' newfile 
-## OUTPUT
+<img width="616" height="107" alt="image" src="https://github.com/user-attachments/assets/a5ac9526-deb4-4506-a4d1-9d2b4f655324" />
 
 
 egrep l{2} newfile
 ## OUTPUT
+<img width="625" height="105" alt="image" src="https://github.com/user-attachments/assets/4d8dea43-796f-4da4-87f9-528ddae4aaee" />
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+<img width="615" height="128" alt="image" src="https://github.com/user-attachments/assets/30ea00ce-db7e-4f3b-a931-bbb9231ec758" />
 
 
 cat > file23
@@ -249,11 +247,13 @@ cat > file23
 1001 | Ram | 10000 | HR
 ^d
 ```
+<img width="636" height="260" alt="image" src="https://github.com/user-attachments/assets/b8d17671-2367-4433-8ddf-83942f410d77" />
 
 
 sed -n -e '3p' file23
 ## OUTPUT
 
+<img width="592" height="83" alt="image" src="https://github.com/user-attachments/assets/e6ccef04-ba60-4e3a-ac44-89520c2b4df8" />
 
 
 sed -n -e '$p' file23
