@@ -964,6 +964,7 @@ else
 fi
 ```
 ## OUTPUT 
+<img width="696" height="174" alt="image" src="https://github.com/user-attachments/assets/b81a7b14-b2bd-473e-9b1d-72d12d8c10f3" />
 
 
 # RESULT:
